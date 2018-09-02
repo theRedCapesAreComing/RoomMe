@@ -1,0 +1,84 @@
+body    {
+background-color: #000000;
+color: dodgerblue;
+font-family: 'Oswald', sans-serif;
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#room
+{
+    background: rgba(0,0,0,0.5);
+}
+
+#title
+{
+    font-size: 50px;
+    border-width: 0px;
+    padding-bottom: 0px;
+}
+
+#intro
+{
+    border-width: 0px;
+    color: chartreuse;
+}
+
+#begin
+{
+    background-color:darkkhaki;
+    border-width: 0px;
+    font-size: 35px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: burlywood}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#which
+{
+    color: "#FFFFFF";
+}
+
+
+#profile
+{
+    background-image: url(Col.jpg);
+    background-size: cover;
+}
